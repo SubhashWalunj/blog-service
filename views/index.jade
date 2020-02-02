@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h4 Endpoints
+  ul
+  li GET /blogs => Fetch all blogs
+  li GET /blog/:id => Fetch blog by id
+  li POST /blog => Create new blog
+  li PATCH /blog/:id => Edit blog by id
+  li DELETE /blog/:id => Delete blog 
